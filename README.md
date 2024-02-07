@@ -1,4 +1,4 @@
-# Self hosted kubernetes cluster
+# WIP Self hosted kubernetes cluster
 
 This example shows how to deploy a self hosted kubernetes cluster using Terraform.
 
