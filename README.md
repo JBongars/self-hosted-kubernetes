@@ -1,6 +1,13 @@
-# Terraform Nginx Complete Example
+# Self hosted kubernetes cluster
 
-This example shows how to deploy a nginx server in a private subnet using terraform.
+This example shows how to deploy a self hosted kubernetes cluster using Terraform.
+
+## Steps
+
+1. Use Packer to create a custom AMI image with the required software
+2. Use Terraform to deploy the infrastructure
+3. Use Ansible to configure the kubernetes cluster so new nodes can join the cluster
+4. Use kubectl to deploy a simple nginx server
 
 ## How to Run
 
